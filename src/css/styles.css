@@ -47,13 +47,23 @@ main.container {
     
     
     max-width: 1440px;
-    height: calc(100vh - 120px);
+    height: auto;
     margin: 0 auto;
     padding: 0 30px 30px;
+    justify-content: center;
 }
 
 main.container img.title-image {
-    max-width: 500px;
+    width: 70%;
+    height: auto;
+    text-align: left;
+
+}
+
+main.container img.mario {
+    width: 100%;
+    height: 100%;
+    text-align: center;
 
 }
 
@@ -62,15 +72,13 @@ main.agenda {
     align-items: center;
     
     
-    max-width: 2000px;
-    height: calc(100vh - 100px);
-    margin: 50 percentage;
+    max-width: 500px;
+    height: calc(100vh - 120px);
+    margin: 0 auto;
     padding: 0 30px 30px;
 }
-main.agenda img.mario {
-    max-width: 1600px;
 
-}
+
 
 main.container p.description {
     

@@ -8,20 +8,22 @@
     }
 
     main.container {
-        flex-wrap: wrap;
+        display: flex
         justify-content: center;
-        height: auto;
+        
     }
 
     main.container img.mario {
-        max-width: 100%;
+        width: 100%;
         padding-top: 50px;
+        height: auto;
+        text-align: center
     }
 
     main.container section.information {
         display: flex;
-        flex-direction: row;
-        align-items: normal;
+        flex-direction: column;
+        align-items: center;
     }
 
     main.container p.description {
@@ -42,7 +44,8 @@
     }
 
     main.container img.title-image {
-        max-width: 50%;
+        width: 50%;
+        text-align: left;
     }
 
     div.modal .close-modal {
