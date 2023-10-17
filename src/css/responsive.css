@@ -8,9 +8,9 @@
     }
 
     main.container {
-        display: flex
+        display: flex;
         justify-content: center;
-        
+                
     }
 
     main.container img.mario {
